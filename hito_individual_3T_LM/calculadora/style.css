@@ -1,0 +1,96 @@
+body {
+  background-color: #eeeeee;
+}
+
+header {
+  text-align: center;
+  background-color: #1d3557;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav {
+  background-color: #1d3557;
+  color: #fff;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  color: #F0E68C;
+}
+
+.calculator {
+  width: 272px;
+  margin: auto;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #A9A9A9;
+}
+
+.display {
+  text-align: right;
+  margin-bottom: 10px;
+  background-color: #D3D3D3;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #D3D3D3;
+  transition: background-color 0.3s;
+  font-size: 28px;
+  color: #000000;
+  margin: 2px;
+  width: 56px;
+  height: 64px;
+}
+
+.button-color:hover {
+  background-color: #F0E68C;
+}
+
+.boton-punto {
+  width: 120px;
+}
+
+.boton-potencia {
+  width: 120px;
+}
+
+.boton-raiz {
+  width: 120px;
+}
+
+.equal-button {
+  background-color: #F0E68C;
+  color: #000000;
+}
+
+.equal-button:hover {
+  background-color: #DAA520;
+}

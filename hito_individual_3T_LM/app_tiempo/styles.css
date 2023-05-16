@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+  }
+  
+  header {
+	background-color: #3f51b5;
+	color: white;
+  }
+  
+  .navbar-brand {
+	font-size: 1.5rem;
+  }
+  
+  .navbar-nav {
+	margin-right: 1rem;
+  }
+  
+  .navbar-nav a {
+	color: white !important;
+  }
+  
+  .tabla_api {
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  th,
+  td {
+	text-align: left;
+	padding: 8px;
+  }
+  
+  th {
+	background-color: #dddddd;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #f2f2f2;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:focus,
+  .navbar-dark .navbar-nav .nav-link:hover {
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+	.navbar-nav {
+	  margin-right: 0;
+	}
+  }
+  
